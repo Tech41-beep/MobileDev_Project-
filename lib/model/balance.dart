@@ -9,9 +9,15 @@ class Balance{
   final Currency currency;
 
  Balance({required this.participant, required this.amount, required this.currency}){ 
-  if(amount < 0){
-    throw ArgumentError('Amount cannot be negative');
-  }
+
  }
+ bool get shouldReceive => amount > 0;
+ bool get owesMoney => amount < 0;
+ bool get isSettled => amount == 0;
+
+void updateAmount(double newAmount){
+
+  amount = newAmount;
+}
 
 }
