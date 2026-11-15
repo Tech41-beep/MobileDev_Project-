@@ -40,8 +40,8 @@ Mobile_Project/
 │       └── storage_service.dart
 │
 ├── test/
-│   ├── model/
-│   └── service/
+│   ├── balance_service_test.dart
+│   └── expense_service_test.dart
 │
 ├── README.md
 └── pubspec.yaml
