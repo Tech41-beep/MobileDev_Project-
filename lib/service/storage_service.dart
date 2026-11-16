@@ -9,11 +9,5 @@ class StorageService {
       return _database!;
     }
 
-    _database = await openDatabase(
-      join(await getDatabasesPath(), 'splitmate.db'),
-      version: 1,
-    );
-
-    return _database!;
   }
 }
