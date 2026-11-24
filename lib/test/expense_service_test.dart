@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import '../lib/model/balance.dart';
-import '../lib/model/expense.dart';
-import '../lib/model/participant.dart';
-import '../lib/service/expense_service.dart';
+import '../model/balance.dart';
+import '../model/expense.dart';
+import '../model/participant.dart';
+import '../service/expense_service.dart';
 
 void main() {
   group('ExpenseService', () {
