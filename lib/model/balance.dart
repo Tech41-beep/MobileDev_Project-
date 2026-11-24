@@ -1,10 +1,10 @@
 import '../model/participant.dart';
 enum Currency{
   USD,
-  KHR
+  KHR,
 }
 class Balance{ 
-  final Participant participant;
+ Participant participant;
   double amount;
   final Currency currency;
 
